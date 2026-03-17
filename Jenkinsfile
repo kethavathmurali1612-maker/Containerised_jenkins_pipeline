@@ -9,7 +9,7 @@ pipeline {
 
         stage('Checkout Code') {
             steps {
-                git branch: 'main', url: 'https://github.com/kethavathmurali1612-maker/Containerized_jenkins_pipeline.git'
+                git branch: 'main', url: 'https://github.com/kethavathmurali1612-maker/Containerised_jenkins_pipeline.git'
             }
         }
 
